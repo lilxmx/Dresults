@@ -1,0 +1,49 @@
+server:
+  port: 8080
+  session-timeout: 30
+  server.tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1000000000000
+      max-request-size: 1000000000000
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://101.200.224.228:3306/noteproject?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&autoReconnect=true&allowMultiQueries=true
+    username : root
+    password : liguoruiaixmx
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF/**
+    freemarker:
+      cache: false    #页面不加载缓存，修改即时生效
+  redis:
+    host: 101.200.224.228
+    port: 6379
+    password: 1024132423518Ve
+mybatis:
+  type-aliases-package: com.yunding.demo.dto.PublicNotesDto
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+
+    map-underscore-to-camel-case: true
+
+  pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+notes:
+  noteId: 1
+  title: 2
+  content: +1天
+
+name: 李国瑞
+myLover: xmx
+year: 1314
