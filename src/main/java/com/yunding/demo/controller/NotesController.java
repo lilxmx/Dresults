@@ -61,7 +61,7 @@ public class NotesController {
      * 获取所有笔记的信息
      * @return
      */
-    @ApiOperation(value="获取所有公开笔记", notes="获取所有公开笔记",produces = "application/json")
+    @ApiOperation(value="接口说明：获取所有公开笔记", notes="接口发布说明：获取所有公开笔记",produces = "application/json")
     @GetMapping("/allNotes")
     public ResultWrapper getAllNotes(){
         return ResultWrapper.successWithData(notesService.getAllNotes());

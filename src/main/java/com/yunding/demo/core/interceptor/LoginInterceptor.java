@@ -8,7 +8,6 @@ import com.yunding.demo.core.wrapper.ResultWrapper;
 import com.yunding.demo.dto.TokenInfo;
 import com.yunding.demo.dto.UsersInfoDto;
 import com.yunding.demo.service.TokenService;
-import com.yunding.demo.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

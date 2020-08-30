@@ -1,8 +1,6 @@
 package com.yunding.demo.mapper;
 
 import com.yunding.demo.dto.PublicNotesDto;
-import com.yunding.demo.form.InsertNotesForm;
-import com.yunding.demo.form.UpdateNotesForm;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

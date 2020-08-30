@@ -4,9 +4,6 @@ import com.yunding.demo.dto.UsersInfoDto;
 import com.yunding.demo.entity.UserInfo;
 import org.springframework.stereotype.Repository;
 
-import java.security.SecureRandom;
-import java.util.List;
-
 /**
  * @author guorui
  * @date 2020-07-23 20:49

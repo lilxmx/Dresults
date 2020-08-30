@@ -85,7 +85,7 @@ public class UsersController {
      * @param userLoginPhoneForm
      * @return
      */
-    @ApiOperation(value = "手机号密码登录")
+    @ApiOperation(value = "邮箱密码登录")
     @PostMapping("/login/password")
     public ResultWrapper login(@Valid @RequestBody UserLoginPhoneForm userLoginPhoneForm){
         try{

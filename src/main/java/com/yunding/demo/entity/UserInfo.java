@@ -1,7 +1,6 @@
 package com.yunding.demo.entity;
 
 import lombok.Data;
-import org.springframework.stereotype.Component;
 
 /**
  * @author guorui

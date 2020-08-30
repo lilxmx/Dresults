@@ -3,7 +3,6 @@ package com.yunding.demo.service.impl;
 import com.yunding.demo.dto.TokenInfo;
 import com.yunding.demo.redis.RedisRepository;
 import com.yunding.demo.service.TokenService;
-import com.yunding.demo.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;

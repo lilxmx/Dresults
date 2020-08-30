@@ -3,7 +3,8 @@ package com.yunding.demo.controller;
 import com.yunding.demo.core.wrapper.ResultWrapper;
 import com.yunding.demo.dto.MessageDto;
 import com.yunding.demo.form.NumberForm;
-import com.yunding.demo.util.ShortMessageUtil;
+import com.yunding.demo.util.MessageUtil;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,10 +17,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @CrossOrigin
 @Slf4j
-public class ShortMessageController {
+public class MessageController {
     @Autowired
-    private ShortMessageUtil shortMessageUtil;
-
+    private MessageUtil shortMessageUtil;
+    @ApiOperation(value = "发送短信" )
     @PutMapping("/")
     public ResultWrapper getSsm(@RequestBody NumberForm number) {
         //先设置为成功状态

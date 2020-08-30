@@ -1,7 +1,6 @@
 package com.yunding.demo.config;
 
 import com.yunding.demo.core.interceptor.LoginInterceptor;
-import com.yunding.demo.core.interceptor.LoginInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;

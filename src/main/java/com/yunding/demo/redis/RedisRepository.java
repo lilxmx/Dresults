@@ -1,7 +1,6 @@
 package com.yunding.demo.redis;
 
 import com.yunding.demo.dto.TokenInfo;
-import org.springframework.stereotype.Repository;
 
 /**
  * @author guorui
