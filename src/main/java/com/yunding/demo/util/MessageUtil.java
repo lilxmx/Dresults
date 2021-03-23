@@ -28,8 +28,8 @@ public class MessageUtil {
     static final String product = "Dysmsapi";
     //产品域名,开发者无需替换
     static final String domain = "dysmsapi.aliyuncs.com";
-    static final String accessKeyId = "LTAI4G2w1vPZ7VZ7CkLsoeJL";
-    static final String accessKeySecret = "P5PVDqWzjEDsTpwHQgkHfXTHEF462K";
+//     static final String accessKeyId ;
+//     static final String accessKeySecret ;
     @Autowired
     private RedisRepository redisRepository;
 
