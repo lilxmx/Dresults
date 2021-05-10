@@ -25,11 +25,11 @@ import org.springframework.stereotype.Component;
 public class MessageUtil {
 
     //产品名称:云通信短信API产品,开发者无需替换
-    static final String product = "Dysmsapi";
+    static final String product = "xxx";
     //产品域名,开发者无需替换
-    static final String domain = "dysmsapi.aliyuncs.com";
-//     static final String accessKeyId ;
-//     static final String accessKeySecret ;
+    static final String domain = "xxx";
+//     static final String accessKeyId= ;
+//     static final String accessKeySecret= ;
     @Autowired
     private RedisRepository redisRepository;
 
@@ -64,9 +64,9 @@ public class MessageUtil {
         //必填:待发送手机号
         request.setPhoneNumbers(number);
         //必填:短信签名-可在短信控制台中找到，你在签名管理里的内容
-        request.setSignName("Dresults");
+        request.setSignName("xxxx");
         //必填:短信模板-可在短信控制台中找到，你模板管理里的模板编号
-        request.setTemplateCode("SMS_197885114");
+        request.setTemplateCode("xxxx");
         //可选:模板中的变量替换JSON串,如模板内容为"亲爱的${name},您的验证码为${code}"时,此处的值为
         request.setTemplateParam("{\"code\":\"" + code + "\"}");
 
