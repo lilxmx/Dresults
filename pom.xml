@@ -42,7 +42,7 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.0</version>
         </dependency>
         <!--    在yml文件下加入属性的映射关系，前面是类名的。可能出错的应对措施-->
         <dependency>
